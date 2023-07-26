@@ -5,8 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class UserHomepage {
-    UserHomepage(){
+public class userhomepage {
+    userhomepage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
