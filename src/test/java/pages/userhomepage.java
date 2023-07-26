@@ -65,11 +65,6 @@ public class UserHomepage {
     @FindBy(xpath="//*[@class='text-white']")
     public WebElement linkWishlist;
 
-
-
-
-
-
 //ON FOOTER
 
 
@@ -133,8 +128,6 @@ public class UserHomepage {
     public WebElement newsFiveButtonInFooter;
 
 
-
-
     //yanlis oldu galiba?????
     @FindBy(xpath= "//*[@class='other-store-link']")
     public WebElement googlePlayIconInFooter;
@@ -150,13 +143,10 @@ public class UserHomepage {
     public WebElement appleStoreIconInFooter;
 
 
-
-
 //IN HOME PAGE
 
 
 //IN LISTING PAGE
-
 
 
 //When you click on the listing link and search on the page Result Text
@@ -185,7 +175,8 @@ public class UserHomepage {
 
 
     //IN PROJECTS PAGE
-//Projects sayfasinda listelenen projelerin sayisi
+    
+    //Projects sayfasinda listelenen projelerin sayisi
     @FindBy(xpath = "//*[@class='left-column']")
     public WebElement numbersOfProjectsProjectspage;
 
@@ -226,9 +217,7 @@ public class UserHomepage {
     public WebElement projectNineProjectspage;
 
 
-
-
-//IN AGENTS PAGE
+    //IN AGENTS PAGE
 
 
     //Agents linkine tiklayinca cikan ilk emlakci(Agent) linki
@@ -271,49 +260,7 @@ public class UserHomepage {
     public WebElement linkFirstAgentForSaleFirstProperty;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //IN HOME PAGE
-
-
 
 
     //User Home Page Search Location
@@ -353,8 +300,6 @@ public class UserHomepage {
 
     //User Home Page Search Result Number @FindBy(xpath="//h4[@class='m-0']")
     public WebElement bodySearchResultSonucSayisi;
-
-
 
 
 //IN LISTING PAGE
@@ -424,18 +369,6 @@ public class UserHomepage {
     public WebElement listingSendMessageButton;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 //IN BLOG PAGE
 
 
@@ -500,10 +433,6 @@ public class UserHomepage {
     //User Blog Page Continue Share This Post Twitter Button
     @FindBy(xpath="//a[@class='cl-twitter']")
     public WebElement shareThisPostTwitter;
-
-
-
-
 
 
 //IN BLOG PAGE
